@@ -6,7 +6,8 @@ import {
   initLocaleDatetime,
   initClipboard,
   initToc,
-  loadMermaid
+  loadMermaid,
+  loadCustomImageSlider,
 } from './modules/components';
 
 loadImg();
@@ -18,3 +19,4 @@ initClipboard();
 initTopbar();
 loadMermaid();
 basic();
+loadCustomImageSlider();

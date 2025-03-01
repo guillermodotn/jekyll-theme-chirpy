@@ -496,3 +496,49 @@ h4 {
     scroll-margin-top: 2rem;
   }
 }
+
+/* Image comparison */
+
+.img-compare-container {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px; /* Let the container height adjust based on the images */
+  margin: 0 auto; /* Centers the container horizontally */
+  overflow: hidden; /* Hide anything overflowing */
+}
+
+
+.img-compare-container img {
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+
+.img-compare-before,
+.img-compare-after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.img-compare-after {
+  clip-path: inset(0 50% 0 0); /* Initially show 50% of the image */
+}
+
+.img-compare-slider {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: ew-resize;
+  z-index: 10;
+  background-color: var( --main-bg );
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  // box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
