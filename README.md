@@ -1,24 +1,23 @@
+
 <!-- markdownlint-disable-next-line -->
-<div align="center">
+# ChirpyG (Chirpy Graph)
 
-  <!-- markdownlint-disable-next-line -->
-  # Chirpy Jekyll Theme
+A minimal, responsive, and feature-rich Jekyll theme for technical writing.
 
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
+> [!NOTE]
+> This repository is a fork of the **[jekyll-theme-chirpy][upstream]** theme for [Jekyll][jekyllrb]. It extends the original theme by adding a tab with a graph view to visualize the relationships between posts and tags.
 
-  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
-  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
-  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
 
-  [**Live Demo** →][demo]
+[![CI](https://img.shields.io/github/actions/workflow/status/guillermodotn/jekyll-theme-chirpy-g/ci.yml?logo=github)][ci]
+[![GitHub license](https://img.shields.io/github/license/guillermodotn/jekyll-theme-chirpy-g?color=goldenrod)][license]
+[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy-g?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]
 
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
 
-</div>
+![Graph Tab](https://github.com/user-attachments/assets/ff570ba5-141b-4e44-b9c4-68ded02660ba)
 
 ## Features
+
+### Upstream
 
 - Dark Theme
 - Localized UI language
@@ -39,46 +38,23 @@
 - Web Analytics
 - SEO & Performance Optimization
 
+### Origin
+
+- Interactive Graph View
+
 ## Documentation
 
-To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
+To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki] at the upstream repository.
 
 ## Contributing
 
-Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
-to learn, inspire, and create. Any contributions you make are greatly appreciated.
-For details, see the "[Contributing Guidelines][contribute-guide]".
+Contributions are welcome to this repository for improvements, features, or bug fixes! If your change can benefit both this fork and the upstream repository, please consider proposing it to the [upstream][upstream] first, and it will be synced here. However, if you feel the change is specific to this fork, feel free to contribute directly to this repository.
 
-## Credits
+Contributions are greatly appreciated!
 
-### Contributors
-
-Thanks to [all the contributors][contributors] involved in the development of the project!
-
-[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
-<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
-
-### Third-Party Assets
-
-This project is built on the [Jekyll][jekyllrb] ecosystem and some [great libraries][lib], and is developed using [VS Code][vscode] as well as tools provided by [JetBrains][jetbrains] under a non-commercial open-source software license.
-
-The avatar and favicon for the project's website are from [ClipartMAX][clipartmax].
-
-## License
-
-This project is published under [MIT License][license].
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
-[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
-[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
-[jekyllrb]: https://jekyllrb.com/
-[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
+[upstream]: https://github.com/cotes2020/jekyll-theme-chirpyv
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy-g
 [wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[lib]: https://github.com/cotes2020/chirpy-static-assets
-[vscode]: https://code.visualstudio.com/
-[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+[ci]: https://github.com/guillermodotn/jekyll-theme-chirpy-g/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
+[license]: https://github.com/guillermodotn/jekyll-theme-chirpy-g/blob/master/LICENSE
+[jekyllrb]: https://jekyllrb.com/
